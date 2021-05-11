@@ -1,0 +1,85 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+#menu{
+    width: 32px;
+    top: 8px;
+   
+}
+.solid-header{
+    position: fixed;
+    background-color: white;
+    transition: background-color 0.4s ease;
+    
+}
+#hero-section{
+  background-image: url(/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-color: #f6f6f6;
+  
+}
+#intro-section{
+    background-color: #f6f6f6;
+}
+#intro-section2{
+    background-color: #f6f6f6;
+   
+}
+a{
+    margin-left: 24px;
+    
+}
+
+div a:hover{
+    background-color: #222222;
+}
+.col-8{
+    text-align: right;
+}
+#first-paraghraph{
+    height: 40px;
+    padding-left: 100px;
+    text-align: left;
+    padding-top: 130px;
+}
+#paraghraph1{
+    background-color: #35c087;
+    
+}
+
+#about{
+    background-color: #222222;
+}
+
+#footer{
+    background-color: #111111;
+    height: 80px;
+    align-items: center;
+}
+u{
+    color: darkgray;
+    
+}
+
+
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color:rgb(191, 209, 243);
+    display: none;
+   
+}
+
+#mobile-menu #close-btn{
+    position: absolute;
+    right: -2px;
+    width: 100px;
+    
+}
